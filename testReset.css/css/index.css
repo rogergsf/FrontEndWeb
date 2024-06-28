@@ -1,0 +1,52 @@
+body {
+    background-color: #66ffcc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+h1,
+h2,
+p {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    body {
+        background-color: #00FF33;
+        /* Color to the screens between 480px and 768px */
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-color: #FF4500;
+        /* Color to the screens between 769px and 1024px */
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    body {
+        background-color: #FFD700;
+        /* Color to the screens between 1025px and 1200px */
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1360px) {
+    body {
+        background-color: #8A2BE2;
+        /* Color to the screens between 1201px and 1360px */
+    }
+}
+
+@media screen and (min-width: 1361px) {
+    body {
+        background-color: #FF1493;
+        /* Color to the screens bigger than 1360px */
+    }
+}

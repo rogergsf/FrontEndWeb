@@ -1,0 +1,102 @@
+@import url('./font.css');
+
+/* Define a fonte padrão para todos os elementos */
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6E6CB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    cursor: pointer;
+    overflow-y: auto;
+    /* Permitir rolagem se necessário */
+}
+
+h1 {
+    padding-bottom: 5%;
+    font-size: 2em;
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#new-content {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    /* Adicionar padding para melhor espaçamento */
+}
+
+.checkbox-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Aumentar o espaço entre a caixa e o texto */
+    font-size: 1em;
+    /* Ajustar o tamanho da fonte */
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    /* Aumentar a largura */
+    height: 20px;
+    /* Aumentar a altura */
+    border-radius: 5px;
+    /* Tornar as caixas ligeiramente arredondadas */
+    cursor: pointer;
+}
+
+/* Estilos para telas de celulares */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .checkbox-container {
+        grid-template-columns: 1fr;
+        font-size: 0.8em;
+    }
+
+    label {
+        font-size: 1em;
+    }
+}
+
+/* Estilos para telas de computadores */
+@media (min-width: 601px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .checkbox-container {
+        font-size: 1em;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    label {
+        font-size: 1.2em;
+    }
+}

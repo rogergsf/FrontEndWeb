@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Front End Web 23-1N</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adicionando a meta tag para viewport -->
+  <link rel="stylesheet" href="./css/mobile.css" media="(max-width: 939px)">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <header class="container">
+    <!-- Header content -->
+    <h1>
+      <img class="profilePhoto" src="./images/LinkedinProfile.png" alt="\Róger Gustavo">
+    </h1>
+    <p class="shoppingCart">Sem items no carrinho de compras</p>
+    <nav class="menu-options">
+      <ul>
+        <li><a href="./htmlPages/content.html">Content</a></li>
+        <li><a href="./htmlPages/blog.html">Blog</a></li>
+        <li><a href="./htmlPages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="main"><!-- Principal content --></section>
+  <section id="highlights">
+    <div class="container highlight">
+      <section class="searching">
+        <h2>Search Bar</h2>
+        <form action="http://google.com.br/search" id="form-searching">
+          <input type="search" name="q" id="q">
+          <input class="magnifier" type="image" src="./images/Searching.png">
+        </form>
+      </section> <!-- end .searching-->
+      <section class="menu-content">
+        <h2>Menu</h2>
+        <nav>
+          <ul>
+            <li><a href="#">Class1</a>
+              <ul>
+                <li><a href="indexFirstClass.html" target="_blank">Primeiro Index</a></li>
+                <li><a href="./primeirosExercicios/exercise1.html" target="_blank">Exercício 1</a></li>
+                <li><a href="./primeirosExercicios/exercise2.html" target="_blank">Exercício 2</a></li>
+                <li><a href="./primeirosExercicios/exercise3.html" target="_blank">Exercício 3</a></li>
+                <li><a href="./primeirosExercicios/exercise4.html" target="_blank">Exercício 4</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Class2</a>
+              <ul>
+                <li><a href="./index.html" target="_blank">Index</a></li>
+                <li><a href="./htmlPages/content.html" target="_blank">Content</a></li>
+                <li><a href="./htmlPages/contact.html" target="_blank">Contact</a></li>
+                <li><a href="./htmlPages/blog.html" target="_blank">Blog</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Class3</a>
+              <ul>
+                <li><a href="./htmlPages/theScream.html" target="_blank">TheScream</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Class9</a>
+              <ul>
+                <li><a href="./htmlPages/calculator.html" target="_blank">Calculator</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </section><!-- end. menu-content -->
+
+      <div class="highlight_container">
+        <img id="highlight_image" src="./images/HTML-5.png" alt="Highlight image">
+        <a href="#" class="pause">
+          <img id="play_pause" src="./images/pause.png" alt="PauseButton">
+        </a>
+      </div>
+    </div>
+    <!-- end .container .highlights -->
+    <div class="container panels"> <!-- The folder panels with classes -->
+      <section class="panel class1">
+        <h2>Class 1</h2>
+        <ol>
+          <!-- First Exercise -->
+          <li> <a href="./primeirosExercicios/exercise1.html">
+              <figure>
+                <img class="file_orange" src="images/htmlFileOrange.png">
+                <figcaption>Exercise1 HTML</figcaption>
+              </figure>
+            </a>
+          </li>
+
+          <li> <a href="./primeirosExercicios/exercise2.html">
+              <figure><img class="file_orange" src="./images/htmlFileOrange.png">
+                <figcaption>Exercise2 HTML</figcaption>
+              </figure>
+            </a>
+          </li>
+
+          <li> <a href="./primeirosExercicios/exercise3.html">
+              <figure><img class="file_orange" src="./images/htmlFileOrange.png">
+                <figcaption>Exercise3 HTML</figcaption>
+              </figure>
+            </a>
+          </li>
+
+          <li> <a href="./primeirosExercicios/exercise4.html">
+              <figure>
+                <img class="file_orange" src="./images/htmlFileOrange.png">
+                <figcaption>Exercise4 HTML</figcaption>
+              </figure>
+            </a>
+          </li>
+        </ol>
+      </section>
+
+      <section class="panel class2">
+        <h2>Class 2</h2>
+        <ol>
+          <!-- Second Exercise -->
+          <li> <a href="./index.html">
+              <figure><img class="file_blue" src="./images/htmlFileBlue.png">
+                <figcaption>Index HTML</figcaption>
+              </figure>
+            </a>
+          </li>
+
+          <li> <a href="./htmlPages/content.html">
+              <figure><img class="file_blue" src="./images/htmlFileBlue.png">
+                <figcaption>Content HTML</figcaption>
+              </figure>
+            </a>
+          </li>
+
+          <li> <a href="./htmlPages/blog.html">
+              <figure><img class="file_blue" src="./images/htmlFileBlue.png">
+                <figcaption>Blog HTML</figcaption>
+              </figure>
+            </a>
+          </li>
+
+          <li> <a href="./htmlPages/contact.html">
+              <figure><img class="file_blue" src="./images/htmlFileBlue.png">
+                <figcaption>Contact HTML</figcaption>
+              </figure>
+            </a>
+          </li>
+        </ol>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <img class="footerImage" src="./images/LinkedinProfile.png">
+      <ul class="social">
+        <li><a href="https://www.linkedin.com/in/rogergs-ferreira/" target="_blank"></a></li>
+        <li><a href="https://instagram.com/rogergustavo_sf" target="_blank"></a></li>
+        <li><a href="https://twitter.com/RogerGustavosf" target="_blank"></a></li>
+      </ul>
+      <p>Róger Gustavo Silveira Ferreira - All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="./js/index.js"></script>
+
+</body>
+
+</html>

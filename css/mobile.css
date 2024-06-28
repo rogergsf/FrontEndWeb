@@ -1,0 +1,41 @@
+.container {
+    width: 96%;
+}
+
+header h1 img {
+    max-width: 50%;
+}
+
+.shoppingCart {
+    display: none;
+}
+
+.menu-content {
+    position: static;
+    text-align: center;
+    float: center;
+}
+
+.menu-options ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.searching,
+.menu-content,
+.highlight img {
+    margin-right: 0;
+    width: 100%;
+}
+
+.panel {
+    width: auto;
+}
+
+.panel li {
+    width: 30%;
+}
+
+.panel img {
+    width: 100%;
+}

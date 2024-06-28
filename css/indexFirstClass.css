@@ -1,0 +1,12 @@
+body {
+    background-image: url(../images/leafBackground.jpg);
+    background-size: cover;
+    color: beige;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: large;
+}

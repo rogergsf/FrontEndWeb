@@ -1,0 +1,122 @@
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Modern font choice */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #22242a;
+    /* Dark background for better contrast */
+}
+
+/* Calculator container */
+.calculator-container {
+    width: 20%;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #282c34;
+    /* Calculator container background */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    /* Enhanced shadow effect */
+}
+
+/* Calculator styles */
+.calculator {
+    width: 100%;
+    background-color: #282c34;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    /* Slightly larger shadow */
+}
+
+/* Display styles */
+.calculator input.display {
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    font-size: 24px;
+    border: 2px solid #61dafb;
+    /* Border for display */
+    border-radius: 10px;
+    background-color: #3a3f4a;
+    /* Darker background for display */
+    color: #f0f0f0;
+    outline: none;
+    text-align: right;
+}
+
+/* Table styles */
+.calculator table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    margin-left: 1.5px;
+    /* Add margin for spacing */
+}
+
+/* Button styles */
+.calculator button {
+    width: 82%;
+    padding: 15px;
+    margin: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3c4047;
+    /* Neutral background for buttons */
+    color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    /* Smooth transitions */
+}
+
+/* Button hover and active effects */
+.calculator button:hover {
+    background-color: #61dafb;
+    /* Highlighted color */
+    transform: translateY(-1px);
+    /* Slight upward movement */
+}
+
+.calculator button:active {
+    background-color: #51c7f1;
+    /* Slightly darker shade when active */
+}
+
+/* Number button styles */
+.calculator button.number {
+    background-color: #3c4047;
+    /* Neutral background for number buttons */
+}
+
+/* Operator button styles */
+.calculator button.operator {
+    background-color: #d64e52;
+    /* Distinct red for operator buttons */
+    color: #f0f0f0;
+}
+
+/* Function button styles */
+.calculator button.function {
+    background-color: #ff8c00;
+    /* Orange for function buttons */
+    color: #f0f0f0;
+}
+
+/* Specific button hover and active styles */
+.calculator button.operator:hover {
+    background-color: #ff5f5f;
+    /* Brighter red on hover */
+}
+
+.calculator button.function:hover {
+    background-color: #ff6a00;
+    /* Brighter orange on hover */
+}

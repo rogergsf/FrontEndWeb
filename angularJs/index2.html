@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AngularJs</title>
+</head>
+
+<body>
+    <h2>Application Angular example with HTML elements</h2>
+    <p>The background color will be alterated according to the input</p>
+    <div ng-app="" ng_init="color='lightblue'">
+        <input style="background-color: {{color}}" ng-model="color" value="{{color}}">
+        <p>The entered color is: {{color}}</p>
+        <span ng-init="quantity=2; value=5">
+            <p>Numeric expression: <span style="background-color: {{color}};">{{quantity*value}}</span></p>
+        </span>
+        <span ng-init="name='John'; nickname='Cena'">
+            <p>Full Name: {{name + " " + nickname}}</p>
+        </span>
+    </div>
+    <script src="./js/angularJs.js"></script>
+</body>
+
+</html>

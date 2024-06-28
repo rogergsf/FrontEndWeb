@@ -1,0 +1,321 @@
+.highlight_container {
+    width: 70%;
+}
+
+.pause {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pause img {
+    width: 32px;
+    height: 32px;
+    top: 175px;
+    right: 175px;
+}
+
+body {
+    color: #333333;
+    font-family: serif;
+}
+
+header {
+    position: relative;
+}
+
+h1 {
+    position: relative;
+    top: 5px;
+}
+
+.container {
+    /* margin: 0 auto; */
+    width: 91.796875%;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    position: relative;
+}
+
+.magnifier {
+    width: 18px;
+    margin-bottom: 2px;
+}
+
+.searching,
+.menu-content {
+    margin-top: 10px;
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+}
+
+.searching h2,
+.searching form,
+.menu-content h2 {
+    margin: 10px;
+}
+
+.searching input {
+    vertical-align: middle;
+}
+
+.searching input [ type=search] {
+    width: 170px;
+}
+
+.searching {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.menu-content li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-content {
+    clear: left;
+}
+
+.highlights {
+    margin-top: 10px;
+}
+
+.menu-content {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-content li li a:before {
+    content: '- ';
+}
+
+.file_orange {
+    width: 50px;
+}
+
+.file_blue {
+    width: 50px;
+}
+
+.profilePhoto {
+    width: 20%;
+    height: 20%;
+}
+
+.shoppingCart {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: url(../Images/ShoppingCart.png) no-repeat right;
+    width: 9.76%;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 15px;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-left: 10px;
+    background-size: contain;
+}
+
+
+.menu-options ul {
+    font-size: 15px;
+}
+
+.menu-options a {
+    color: #003366;
+}
+
+.menu-options a:hover {
+    color: #009ec6;
+}
+
+.menu-options a:active {
+    color:
+        #a57dc6;
+}
+
+.menu-content li ul {
+    display: none;
+    /*Hidden by default*/
+}
+
+.menu-content li:hover ul {
+    display: block;
+    /*On mouse appears*/
+}
+
+.menu-content ul ul li {
+    background-color: #dcdcdc;
+}
+
+.menu-options ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-options {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.panel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 35%;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.panel h2 {
+    text-shadow: 3px 3px 2px #FFF;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.panel li:hover {
+    box-shadow: 0 0 5px #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 0.7s;
+    transform: scale(1.2) rotate(-5deg);
+}
+
+.class1 {
+    text-align: center;
+    float: left;
+    background-color: #f5dcdc;
+    box-shadow: inset 2px 2px 4px #999;
+    background: linear-gradient(#f5dcdc, #bebef4);
+}
+
+.class2 {
+    text-align: center;
+    float: right;
+    background-color: #dcdcf5;
+    box-shadow: inset 2px 2px 4px #999;
+    background: linear-gradient(#dcdcf5, #f4bebe);
+}
+
+.panel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.panel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom:
+        10px;
+}
+
+.panel a {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.panel img {
+    width: auto;
+}
+
+footer {
+    background-color: #333;
+    height: 100px;
+    clear: both;
+    color: #fff;
+    padding: 10px 0;
+    bottom: 6px;
+    width: 100%;
+}
+
+footer .container {
+    margin: 0 auto;
+    position: relative;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social a {
+    text-indent: -9999px;
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.social a[href *="linkedin.com"] {
+    background-image: url(../images/LogoLinkedin.png);
+    background-size: contain;
+
+}
+
+.social a[href *="instagram.com"] {
+    background-image: url(../images/LogoInstagram.png);
+    background-size: contain;
+
+}
+
+.social a[href *="twitter.com"] {
+    background-image: url(../images/LogoTwitter.png);
+    background-size: contain;
+
+}
+
+.social ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social li {
+    float: left;
+}
+
+.footerImage {
+    width: 50px;
+    height: 50px;
+}
+
+footer img {
+    position: relative;
+    top: 45px;
+}
+
+footer ul.social {
+    margin-left: 55px;
+}
+
+footer ul.social li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+footer ul.social li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    position: relative;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    left: 10px;
+}

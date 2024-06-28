@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Name with AngularJS</title>
+</head>
+
+<body>
+    <h2>Display a Name Saved in a Variable</h2>
+    <!-- Div with ng-app and ng-init directives -->
+    <div ng-app="" ng-init="name='John Cena'">
+        <!-- Paragraph displaying the name using ng-bind -->
+        <p>The saved name is: <span ng-bind="name"></span></p>
+    </div>
+
+    <!-- Linking AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+</body>
+
+</html>

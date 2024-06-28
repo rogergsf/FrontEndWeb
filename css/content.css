@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+/* Bold Paragraphs */
+b p {
+    font-size: 1.5em;
+    color: #2980b9;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+li {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+li p {
+    margin: 0;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1abc9c;
+    text-decoration: underline;
+}
+
+/* Audio Player */
+audio {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+}
+
+input[type="range"] {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Additional Styling for Footer Song Text */
+p {
+    text-align: center;
+    color: #000;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #95a5a6;
+    font-size: 0.9em;
+}
